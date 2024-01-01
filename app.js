@@ -22,3 +22,8 @@ function ReactTenDashOne() {
     // 구조분해할당으로 '할당' 받았으며 1번째(두번째)는 React에 의해 이미 만들어진 함수(메서드)이다.
   }
 }; 
+
+const addPack = () => {
+  setPacks([...packs, false]); // packs 배열에 false를 추가한다.
+  // 즉 배열길이가 늘어남에 따라, packs 배열의 원소가 늘어난다.
+};
